@@ -1,0 +1,27 @@
+<ion-view view-title="{{'NAV_BAR_TITLE' | translate}}" >
+    <ion-content class="padding">
+        <p>{{ 'INSTRUCTIONS_QUANTITY' | translate }}</p>
+        <div class="list list-inset">
+          <label class="item item-input" >
+            <input type="tel" ng-model="currencyData.quantity" placeholder='{{"QUANTITY_PLACEHOLDER" | translate }}'>
+          </label>
+        </div>
+        <p>{{ 'INSTRUCTIONS_CURRENCY' | translate }}</p>
+        <div class="list list-inset">
+            <label class="item item-input item-select" >
+                <!-- needed to  give the textfield the correct space-->
+                <div class="input-label"></br></div>
+                
+                <select ng-model="currencyData.currencyCode">
+                  <option ng-repeat="currency in otherCurrencies" value="{{currency.code}}" >{{currency.name}} - {{currency.code}}</option>
+                  
+                </select>
+            </label>
+        </div>
+        <button class="button button-stable button-block" ng-click="convertCurrency()">{{ 'CONVERT_BUTTON' | translate }}</button>
+        <div ng-show="showResult">
+            <p>{{ 'EXCHANGE_RESULT' | translate:currentDate }}</p>
+            <h3>{{ quantityToShow | currency:currentSymbol }} {{currentCurrencyCode}} = {{ result | currency:convertToSymbol }} {{convertToCode}}</h3>
+        </div>
+    </ion-content>
+</ion-view>

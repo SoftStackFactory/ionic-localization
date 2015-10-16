@@ -1,0 +1,17 @@
+{
+    "NAV_BAR_TITLE": "汇率",
+    "INSTRUCTIONS_QUANTITY": "输入要转换的金额",
+    "QUANTITY_PLACEHOLDER": "数量",
+    "INSTRUCTIONS_CURRENCY": "选择你要转换的货币",
+    "EXCHANGE_RESULT": "每日汇率 {{ currentDate }}:",
+    "CONVERT_BUTTON": "兑换",
+    
+    "DOLLARS" : "美元",
+    "PESOS": "权重",
+    "YUANS": "元",
+    
+    "ERROR_TITLE": "误",
+    "QUANTITY_ERROR": "输入有效的数量",
+    "CURRENCY_ERROR": "请选择货币",
+    "EXCHANGE_ERROR": "不可能检查此刻的汇率。稍后再试"
+}

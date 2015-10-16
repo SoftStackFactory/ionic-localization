@@ -1,0 +1,18 @@
+{
+    "NAV_BAR_TITLE": "Exchange rate",
+    "INSTRUCTIONS_QUANTITY": "Enter the quantity you want to convert:",
+    "QUANTITY_PLACEHOLDER": "Quantity",
+    "INSTRUCTIONS_CURRENCY": "Choose the currency you want to convert to:",
+    "EXCHANGE_RESULT": "The exchange currency rate for {{currentDate}} is:",
+    "CONVERT_BUTTON": "Convert",
+    
+    "DOLLARS" : "Dollars",
+    "PESOS": "Mexican Pesos",
+    "YUANS": "Yuans",
+    
+    "ERROR_TITLE": "Error",
+    "QUANTITY_ERROR": "Enter a valid quantity.",
+    "CURRENCY_ERROR": "Please choose a currency.",
+    "EXCHANGE_ERROR": "We could not retrieve the exchange rate at this moment. Try again later."
+    
+}

@@ -1,0 +1,17 @@
+{
+    "NAV_BAR_TITLE": "Tipo de cambio",
+    "INSTRUCTIONS_QUANTITY": "Introduce la cantidad que deseas convertir:",
+    "QUANTITY_PLACEHOLDER": "Cantidad",
+    "INSTRUCTIONS_CURRENCY": "Escoge la moneda a la que quieres convertir:",
+    "EXCHANGE_RESULT": "El tipo de cambio al día {{currentDate}} es:",
+    "CONVERT_BUTTON": "Convertir",
+    
+    "DOLLARS" : "Dolares",
+    "PESOS": "Pesos",
+    "YUANS": "Yuanes",
+    
+    "ERROR_TITLE": "Error",
+    "QUANTITY_ERROR": "Introduce una cantidad válida.",
+    "CURRENCY_ERROR": "Por favor, escoge una moneda.",
+    "EXCHANGE_ERROR": "No fue posible consultar el tipo de cambio en estos momentos. Intenta más tarde."
+}

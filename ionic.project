@@ -1,0 +1,10 @@
+{
+  "name": "l08n",
+  "app_id": "b6a4f759",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "https://currency-api.appspot.com/api/"
+    }
+  ]
+}
